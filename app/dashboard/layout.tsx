@@ -1,5 +1,10 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 import { Fragment } from 'react';
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: 'Dashboard'
+}
 
 export default function LayOut({ children } : {children: React.ReactNode }){
     return (
